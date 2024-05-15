@@ -1,0 +1,176 @@
+1)	Which SQL command is used to remove from a table ?		ans(C)
+a.	SELECT			
+b.	INSERT
+c.	DELETE
+d.	UPDATE
+
+2)	What is  the purpose of a primary key in SQL ?			ans(c)
+a.	To retrieve data  from a database 
+b.	To add new records to a table 
+c.	To uniquely identify each record in a table and ensure data integrity 
+d.	To modify the structure of an existing database object 
+
+3)	What is the function of a foreign key in SQL ? 			ans(b)
+a.	To uniquely identify each record in a table 
+b.	To  reference the primary key in another table and establish a relationship between tables
+c.	To add new records to a table 
+d.	To relative data from a database 
+
+4)	What is the main dfference between the DELETE and TRUNCATE commands in SQL?	ans(d)
+a.	DELETE removes all rows from a table, while TRUNCATE removes particular rows based on a condition 
+b.	DELETE is faster and used  fewer system resources than TRUNCATE
+c.	DELETE dose not log individual row deletions  while TRUNCATE does 
+d.	DELETE does not log individual row deletion based on a condition, while TRUNCATE removes all rows  without conditions and is faster 
+
+5)	Which of the following best describes a JOIN operation in SQL ?	ans(b)
+a.	A command to remove particular rows from a table 
+b.	An operation to merge information from two or more tables using a common column
+c.	A method to crate a new table 
+d.	A technique to modify the structure of an existing table 
+
+6)	What does a NULL value represent in SQL ?			ans(c)
+a.	An empty string 
+b.	The number zero 
+c.	The absence of data or an unknown values in a column 
+d.	A default value 
+7)	What is a key difference between SQL and NoSQL databases?		ans(a)
+a.	SQL databases use predefined schemas, while NoSQL databases do not have schemas
+b.	SQL databases excel in handling unstructured data while NoSQL database focus on structured data 
+c.	SQL databases are non-relational while NoSQL databases use structured tables 
+d.	SQL databases prioritize scalability and distribution while NoSQL database focus on data consistency 
+8)	What does the ORDER BY clause in SQL do ? 		ans(c)
+a.	Adds new records to a table 
+b.	Modifies existing records in a table 
+c.	Retrieves data from a database and sorts result set based on one or more columns 
+d.	Deletes records from a table
+9)	What is a view in SQL ?			ans(b)
+a.	A physical table that stores data in a database 
+b.	A virtual table derived from the outcome of a SELECT query 
+c.	A mechanism for deleting records from a table 
+d.	A way to modify the structure of an existing table
+10)	How do you modify existing  records within a table in SQL ?		ans(c)
+a.	Using the INSERT statement 
+b.	Using the DELETE statement 
+c.	Using the UPDATE statement 
+d.	Using the SELECT statement 
+
+11)	Which type of join gathers all rows from the left table and any matching rows from the right table ?							ans(c)
+a.	INNER JOIN
+b.	RIGHT JOIN
+c.	LEFT JOIN
+d.	FULL JOIN
+
+12)	What is the main difference between UNON and UNION ALL in SQL ?	ans(a)
+a.	UNION removes duplicate rows, while UNION ALL retains all rows from both SELECT statements 
+b.	UNION ALL is faster than UNION 
+c.	UNION retains all rows from both SELECT statements,  while UNION ALL removes duplicate rows 
+d.	UNION and UNION ALL perform the same operation 
+
+
+13)	How can you implement error handling in SQL ?
+a.	By using SELECT statements 
+b.	By using try-catch blocks (in SQL SEVER) or EXCEPTION blocks (in Oracle)
+c.	By using EHERE clauses 
+d.	By using JOIN statements 
+
+14)	What is the difference between normalization and denormalization aims to decrease redundancy 						ans(b)
+a.	Normalization aims to increase redundancy while denormalization aims to decrease redundancy 
+b.	Normalization decreases redundancy and enhances data integrity, while denormalizationintroduces redundancy to improve query performance 
+c.	Normalization and denormalization are the same processes performed in different database systems 
+
+
+15)	 How do NoSQL databases interact with SQL database ?		ans(b)
+a.	Through direct SQL queries 
+b.	Through data pipelines, ETL processes, and API-based data transfers 
+c.	By converting NoSQL data into SQL format 
+d.	By using only NoSQL-speciffic query languages 
+e.	By using only NoSQL specific query languages  
+
+16)	What techniques can be used to implement high availability in SQL database ?	ans(c)
+a.	Advanced indexing methods 
+b.	Data compersion techniques 
+c.	Clustering replication and failover mechanisms 
+d.	Schema optimization strategies 
+
+17)	What techniques are used to manage database concurrency ?	ans(c)
+a.	Data modeling techniques 
+b.	Query optimization strategies 
+c.	Locking mechanisms ,optimistic concurrency control, and isolation levels 
+d.	Database backup and recovery methods 
+
+18)	What methods are commonly used to monitor SQL Server performance ?  		ans(c)
+a.	Running ad-hoc queries 
+b.	Setting up performance benchmarks 
+c.	Tracking key performance metrics, setting up alerts, and analyzing performance bottlenecks 
+d.	Using SQL sever Management Studio for routine checks 
+19)	 Which methods are part of database backup and recovery strategies ?  	ans(c)
+a.	Data encryption and decryption 
+b.	index optimization techniques 
+c.	Full backups differential backups, transaction log backups, and regular testing of restoration 
+d.	Query performance tuning 
+
+20)	What is the concept of database sharding ? 			ans(c)
+a.	A vertical partitioning technique 
+b.	A method for encrypting database data 
+c.	A horizontal  partitioning technique for distributing data across multiple database instances or server 
+d.	A strategy for optimizing SQL queries 
+
+21)	How are transaction handled in distributed databases ? 		ans(a)
+a.	By using distributed database systems designed for this purpose 
+b.	By increasing data redundancy 
+c.	By optimizing query performance 
+d.	By implementing advanced indexing techniques 
+
+22)	What is the purpose of the SQL MERGE statement ?			ans(b)
+a.	To execute a single SQL statement 
+b.	To perform data synchronization between tables by combining insertions updates or deletions based on the outcomes of a soure table or query 
+c.	To create a new table by merging existing tables 
+d.	To retrieve data from a database table 
+
+23)	What is the primary role of a database schema in SQL ?              ans(d)
+a.	To execute SQL queries efficiently 
+b.	To manage database connections securely 
+c.	To provide a graphical user interface for database administration 
+d.	To facilitate the organization and segregation of database elements while specifying their structure and interconnections 
+
+24)	How can you prevent SQL injection ?				ans(c)
+a.	By using complex SQL queries 
+b.	By limiting the number of SQL queries executed 
+c.	By employing techniques such as parameterized queries, prepared statements, input validation and stringent access controls 
+d.	By encrypting the database 
+
+25)	What is the difference between Now () and CURRENT_DATE() in SQL ?     	ans(b)
+a.	NOW()  returns the current data in ‘YYYY-MM-DD’ format, while CURRENT_DATE() returns the current data and time in ‘YYYY-MM-DD HH:MM:SS’ format 
+b.	NOW() return the current data and time ‘YYY-MMM-DD HH:MM:SS’ format while CURRENT_DATE() returns the current date in ‘YYYY-MM-DD’ format 
+c.	NOW() returns the current time at which the statement began to execute, while CURRENT_DATE() returns the data of the current day 
+
+26)	What is Database Black Box Testing ?			ans(b)
+a.	A software testing approach  that involves   testing the functions of software  applications with knowledge of the internal code structure 
+b.	A software testing approach that involves testing  the functions of software application without knowing the internal code structure 
+c.	A software testing approach that focuses on testing only the input of software application 
+
+27)	 Where is a MyISAM table stored in MySQL ? 		ans(b)
+a.	In a single file whit the extension myisam 
+b.	In there  separate files on disk: .frm, myd, and .myi 
+c.	In a single file with the extension .frm
+
+28)	What is the primary difference between CHAR and VARCHAR datatypess in SQL?	ans (b)
+a.	CHAR is used for character strings of variable length, while VARCHAR2 is  used for strings of fixed 
+b.	CHAR is used for strings of fixed length, while VARCHAR2 is used for character strings of variable length.
+c.	Both CHAR and VARCHAR2 are used for strings of fixed length 
+
+29)	What does “data integrity” refer to in a database ?		ans (c)
+a.	The size of the database 
+b.	The speed of database queries 
+c.	The accuracy and consistency of the data stored in the database 
+d.	The security measures applied to the database 
+
+30)	How can Dynamic SQL be executed ?		ans(d)
+a.	By writing a query with parameters 
+b.	Using EXEC.
+c.	Using sp_excutesql.
+d.	All of the above.
+
+
+
+
